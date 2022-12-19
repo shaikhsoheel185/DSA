@@ -73,7 +73,7 @@ public class FirstAndLastPositionInSortedArray {
 
     public static void main(String[] args) {
 
-        int [] nums = {2,5,6,6,7,8,9,10} ;
+        int [] nums = {2,5,6,6,6,6,7,8,9,10} ;
 
         int target=6;
 
