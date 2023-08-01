@@ -1,13 +1,13 @@
-package ArraysMatrix;
+package _2D_Array;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintSpiralOrderOfMatrix {
+public class PrintSpiralMatrix {
 
     public static void print (int [][] matrix) {
 
-        List<Integer> res = new ArrayList <>();
+        List<Integer> res = new ArrayList<>();
         int top= 0;
         int bottom= matrix.length-1;
         int left= 0;
@@ -16,7 +16,7 @@ public class PrintSpiralOrderOfMatrix {
         while(true) {
 
             for (int i=left; i<=right; i++ ) {
-                System.out.print( matrix [top] [i] + " " );
+                System.out.print( matrix [top] [i] + "-->" );
             }
 
             top ++;
@@ -24,7 +24,7 @@ public class PrintSpiralOrderOfMatrix {
             if ( top > bottom && left > right ) break;
 
             for ( int i=top; i<= bottom; i++ ) {
-                System.out.print( matrix [i] [right] + " " );
+                System.out.print( matrix [i] [right] + "-->" );
             }
 
             right--;
@@ -32,14 +32,14 @@ public class PrintSpiralOrderOfMatrix {
             if (top > bottom && left > right) break;
 
             for (int i=right; i>= left; i-- ) {
-                System.out.print(  matrix [bottom] [i] + " ");
+                System.out.print(  matrix [bottom] [i] + "-->");
             }
             bottom--;
 
             if (top > bottom && left > right) break;
 
             for(int i = bottom; i > top; i--) {
-                System.out.print( matrix [i] [left] + " " );
+                System.out.print( matrix [i] [left] + "-->" );
             }
             left++;
 
@@ -56,6 +56,6 @@ public class PrintSpiralOrderOfMatrix {
                 {15,25,35,45,58}
         } ;
 
-        PrintSpiralOrderOfMatrix.print(matrix);
+        PrintSpiralMatrix.print(matrix);
     }
 }

@@ -32,8 +32,8 @@ public class OptimizedSearchInMatrixArray {
                 {15,25,35,45,58}
         };
 
-        int target=33;
 
-        System.out.print(Arrays.toString(OptimizedSearchInMatrixArray.SearchInMatrixArray(matrix,target)));
+
+        System.out.print(Arrays.toString(OptimizedSearchInMatrixArray.SearchInMatrixArray(matrix,target)));    int target=33;
     }
 }
