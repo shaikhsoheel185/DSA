@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays -/Arrays -.iml" filepath="$PROJECT_DIR$/Arrays -/Arrays -.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays-MATRIX/Arrays-MATRIX.iml" filepath="$PROJECT_DIR$/Arrays-MATRIX/Arrays-MATRIX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch And LinearSearch/BinarySearch And LinearSearch.iml" filepath="$PROJECT_DIR$/BinarySearch And LinearSearch/BinarySearch And LinearSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary_Tree/Binary_Tree.iml" filepath="$PROJECT_DIR$/Binary_Tree/Binary_Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Dsa.iml" filepath="$PROJECT_DIR$/.idea/Dsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingAlogorithm/SortingAlogorithm.iml" filepath="$PROJECT_DIR$/SortingAlogorithm/SortingAlogorithm.iml" />
+    </modules>
+  </component>
+</project>
